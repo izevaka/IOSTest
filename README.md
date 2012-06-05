@@ -1,17 +1,17 @@
 #iOS Technical Test
 
-Welcome to iOS Technical Test. The purpose of this test is to assess how comfortable you with iOS development environment. During the test you will be provided with a laptop that has working installation of XCode 4.2 and a connection to the internet. You are allowed to use whatever resources you feel appropriate to complete the task. You have one hour to perform this test.
+Welcome to iOS Technical Test. The purpose of this exercise is to assess how comfortable you with iOS development environment. During the test you will be provided with a laptop that has working installation of XCode 4.2 and a connection to the internet. You are allowed to use whatever resources you feel appropriate to complete the task in one hour.
 
 ## Test Summary
-* Project files location: <<Path to test>>
+* Project files location: (Path to source code on the test computer)
 * Duration: 1 hour
 
 ## Background
 This project is a simple editable master-detail application that contains an in-memory array of developers’ first names, last names and descriptions. The master view controller displays each item as “Last Name, First Name” and leads to a non-editable detail view that should display all fields. When table view is in edit mode, tapping on each row brings up a different view controller that should allow editing of the items.
 
-An iPod with a completed version of the test is provided. Please use it to compare your version of the app with the reference implementation.
+An iPod with a completed version of this app is provided. Please use it to compare your version  with the reference implementation.
  
-## Practical task
+## Requirements
 Please complete the application so that:
 
 ###	1. Detail View
