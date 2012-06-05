@@ -14,25 +14,42 @@ An iPod with a completed version of the test is provided. Please use it to compa
 ## Practical task
 Please complete the application so that:
 
-1.	When tapping on a row and table is not being edited, a detail view shows all three fields – first name, last name and description as non-editable labels as per the following screenshot: 
+###	1. Detail View
 
-![](images/DetailView.png)
+When tapping on a row and table is not being edited, a detail view shows all three fields – first name, last name and description as non-editable labels as per the following screenshot: 
 
-2.	When tapping on a row and table is in edit mode, an editable form comes up that allows changing the contents of any of the three fields as per the following screenshot:
+![](IOSTest/raw/master/images/DetailView.png)
 
-![](images/EditView.png)
+### 2. Edit View
 
-3.	When Save is tapped, the Edit Item screen should be dismissed and the table view should reflect the changes that we just made.
-4.	When Cancel is tapped, the Edit Item screen should be dismissed and changes that were just made should be discarded.
-5.	There is at least one violation of Apple Human Interface Design guidelines on the master view controller, can you point out what it is and how to fix it?
-6.	Currently Delete functionality is not implemented in the master view controller. Can you implement it?
+When tapping on a row and table is in edit mode, an editable form comes up that allows changing the contents of any of the three fields as per the following screenshot:
+
+![](IOSTest/raw/master/images/EditView.png)
+
+### 3. Save
+
+When Save is tapped, the Edit Item screen should be dismissed and the table view should reflect the changes that we just made.
+
+
+### 4. Cancel
+
+When Cancel is tapped, the Edit Item screen should be dismissed and changes that were just made should be discarded.
+
+### 5. Bonus point
+
+There is at least one violation of Apple Human Interface Design guidelines on the master view controller, can you point out what it is and how to fix it?
+
+
+### 6. Bonus point
+
+Currently Delete functionality is not implemented in the master view controller. Can you implement it?
 
 ## Notes
 For this test, no new controllers need to be written, it will suffice to extend existing ones. Here is a description of the existing controllers and their function:
 
-MasterViewController – contains a table view of all developers. Performs navigation between itself and detail and edit views.
+`MasterViewController` – contains a table view of all developers. Performs navigation between itself and detail and edit views.
 
-DetailViewController – shows a non-editable view of an individual developer’s details.
+`DetailViewController` – shows a non-editable view of an individual developer’s details.
 
-EditDetailViewController – shows a form that contains editable fields for individual developer’s details.
+`EditDetailViewController` – shows a form that contains editable fields for individual developer’s details.
 
